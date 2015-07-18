@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/ejsc.ico">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>HBB-松鼠</title>
+  </head>
+
+  <body>
+ <div class="content">
+   <div class="ws_block ws_block_1" style="height:150px;">
+     <img src="img/ws.png" alt="ws">
+     <div class="title">松鼠</div>
+     <div class="text">爱旅行,爱生活</div>
+   </div>
+   <div class="ws_block ws_block_2">
+     <div class="ws_title">漠河小路</div>
+     <img src="img/ws_bg_1.png" alt="ws_1" class="ws_img"/>
+   </div>
+   <div class="ws_block ws_block_3">
+      <div class="ws_title">乌苏里浅滩</div>
+     <img src="img/ws_bg_2.png" alt="ws_2" class="ws_img"/>
+   </div>
+   <div class="ws_block ws_block_4">
+        <div class="ws_title">雾凇岛晨曦</div>
+        <img src="img/ws_bg_3.png" alt="ws_3" class="ws_img"/>
+ </div>
+  </div>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+          var width=document.body.clientWidth;
+          var marginLeft=(width-240)/2;
+          $(".ws_img").css("margin-left",marginLeft+"px");
+      })
+ </script>
+
+  
+  </body>
+</html>
