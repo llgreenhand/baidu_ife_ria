@@ -1,16 +1,16 @@
 .header {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   border-bottom: solid 1px #275da1;
-  height: 25%;
+  height: 180px;
   margin-top: 0px;
   background: #2e7bcf url(../img/header-bg.jpg) 0 0 repeat-x;
   padding:10px;
 }
 
 .header h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: normal;
-  line-height: 48px;
+  line-height: 42px;
   color: #fff;}
 
 .header h2 {
@@ -35,7 +35,7 @@ body,html {
 
 
 .content{width: 100%;height: 100%;}
-.ws{background:#97cbb4;width: 100%;height: 25%;color: #fff;font-weight: 600px;cursor: pointer;}
+.ws{background:#97cbb4;width: 100%;height: 180px;color: #fff;font-weight: 600px;cursor: pointer;}
 .ws_w{font-size: 66px;margin-top: 30px;margin-left: 50%;float: left;width: 70px;}
 .ws_s{font-size: 34px;margin-top: 80px;margin-left: 5%;float: left;width: 40px;}
 
@@ -51,8 +51,8 @@ body,html {
 .ws_title {width: 100%;height: 30px;color:#fff;font-size: 20px;line-height:30px;font-weight: bold;text-align: center;}
 
 
-.ls{background:#ccc496;width: 100%;height: 25%;}
-.mly{background:#97b1cc;width: 100%;height: 25%;}
+.ls{background:#ccc496;width: 100%;height: 180px;}
+.mly{background:#97b1cc;width: 100%;height: 180px;}
 
 
 
