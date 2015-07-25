@@ -1,0 +1,14 @@
+	body{font-family:"Microsoft YaHei",sans-serif;font-weight:400;font-size:1.1em;background-color:#FFF0AC}
+	h1{font-size:3.5em;margin:0.5em 0}
+	h4{font-size:1.25em;margin:0.1em 0}
+	p{font-size:1.1em;margin:0.5em 0}
+	a{text-decoration:none;transition:1.0s}
+	a.highlight{color:#FFD306}
+	a.highlight:hover{color:#FF8000}
+
+	h1,h4{color:#D9B300;font-style:normal}
+
+	#title{text-shadow:1px 2px #FFD306;text-align:center}
+	#avatar{border:5px solid #FFD306}
+	#subtitle{color:#D9B300;font-style:normal}
+	.center{text-align:center}
